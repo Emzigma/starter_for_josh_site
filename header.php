@@ -86,11 +86,11 @@
             </div>
         </div>
 
-        <?php wp_head(); ?>
+        <?php wp_head(); ?> 
     </header>
 
     <!-- About -->
-    <section class="container-fluid aboutbg text-center">
+    <!-- <section class="container-fluid aboutbg text-center">
         <div class="container">
             <h2>GAMES &amp; LEVEL DESIGNER</h2>
             <p class="particle">... and particle wizard</p>
@@ -102,10 +102,10 @@
                 I always tell a story.</p>
             <div class="blocker"></div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Portraits -->
-    <section class="container-fluid articlesbg">
+    <!-- <section class="container-fluid articlesbg">
         <div class="container">
             <h3 class="text-center">LATEST ARTICLES</h3>
             <div class="row">
@@ -150,10 +150,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer class="container-fluid text-center">
+    <!-- <footer class="container-fluid text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -165,7 +165,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
