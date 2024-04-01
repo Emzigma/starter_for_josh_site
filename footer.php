@@ -1,4 +1,3 @@
-
 <body>
     <!-- Footer -->
     <footer class="container-fluid text-center">
@@ -14,7 +13,5 @@
             </div>
         </div>
     </footer>
-
     <?php wp_footer(); ?>
-
 </body>
