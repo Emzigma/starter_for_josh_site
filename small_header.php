@@ -40,24 +40,55 @@
 
 <body>
     <!-- Header -->
-    <header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+    <header class="container-fluid small_header_bg">
         <div class="container">
             <!-- NavBar -->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="#"><span class="josh">JOSH</span>
-                <span class="orange">WHITKIN</span></a>
+                <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="orange">WHITKIN</span></a>
 
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            </nav>
 
-            <div class="container smallpage-tag">
-                <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>
-            </div>              
+                <!-- <?php
+                wp_nav_menu( array(
+                    'theme_location'   => 'primary',
+                    'depth'            => 2,
+                    'container'        => 'div',
+                    'container_class'  => 'collapse navbar-collapse',
+                    'container_id'     => 'bs-example-navbar-collapse-1',
+                    'menu_class'       => 'navbar-nav ml-auto',
+                    'fallback_cb'      => 'WP_Boostrap_Navwalker::fallback',
+                    'walker'           => new WP_Boostrap_Navwalker(),
+                ));
+                ?> -->
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PUBLICATIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="smallpage-tag"></div>
+            <?php wp_head(); ?> 
         </div>
     </header>
-    <?php wp_head(); ?> 
 </body>
