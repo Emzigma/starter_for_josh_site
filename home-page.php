@@ -10,6 +10,9 @@
     <!-- About -->
     <section class="container-fluid aboutbg text-center">
         <div class="container">
+            <div class="d-flex justify-content-center">
+                <lottie-player id="twelfthLottie" src=" http://170.187.231.66/~mesh5/wp-content/themes/starter_for_josh_site/images/creater.json" background="transparent" speed="1" style="width: 300px; height: auto" direction="1" mode="normal" autoplay></lottie-player>
+            </div>
             <h2><?php the_field('titleforaboutme'); ?></h2>
             <p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
             <p class="about-text"><?php the_field('paragraphforaboutme'); ?></p>

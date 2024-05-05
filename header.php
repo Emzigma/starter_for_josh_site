@@ -44,7 +44,9 @@
             <!-- NavBar -->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <!-- Brand -->
-                <a class="navbar-brand" href="#"><span class="josh">JOSH</span> <span class="orange">WHITKIN</span></a>
+                <a class="navbar-brand" href="#"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="http://170.187.231.66/~mesh5/wp-content/themes/starter_for_josh_site/images/logo-anim.json" background="transparent" speed="1" style="width: 200px; height: 100px" direction="1" mode="normal" autoplay></lottie-player></a>
+
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
                     <span class="navbar-toggler-icon"></span>
@@ -62,6 +64,7 @@
                     ) );
                     ?>
             </nav>
+
             <div class="tag">
                 <h1><?php the_field('maintagline'); ?></h1>
             </div>
